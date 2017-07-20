@@ -1,0 +1,30 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "PROJECT 1 Aloha Apparel Co. desktop version",
+  "main": "email-validation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shovalsolo/Project1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shovalsolo/Project1/issues"
+  },
+  "homepage": "https://github.com/shovalsolo/Project1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp-css-scss": "^0.1.0",
+    "gulp-uglifycss": "^1.0.8"
+  }
+}
