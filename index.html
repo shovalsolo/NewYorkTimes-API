@@ -3,21 +3,77 @@
 <head>
 	
 	<meta charset="utf-8"/>
-	<title>Html 5 templet</title>
-	<link rel="stylesheet" type="text/css" href="C:/Programing/Css/main 11.css"/>
+	<title>New York Times api</title>
+	<link rel="stylesheet" type="text/css" href="dist\css\style.css"/>
 	<!--a link to external css-->
-
-
 
 </head>
 <body>
+<header>
+<!--article part -->
+<div class="select-section">
+		<div class="">
+			<img src="assets/images/nyt-logo.svg">
+		</div>
+		<div class="select-nav">
+		
+				<p>Choose a category: </p>
+				<select id="dropDown" onchange="apiget()">
+				  <option >Category</option>
+				  <option value="home" id="home">Home</option>
+				  <option value="opinion" id="opinion">Opinion</option>
+				  <option value="world" id="world">World</option>
+				  <option value="national" id="national">National</option> 
+				  <option value="politics" id="politics">Politics</option>
+				  <option value="upshot" id="upshot">Upshot</option>
+				  <option value="nyregion" id="nyregion">Nyregion</option>
+				  <option value="business" id="business">Business</option>
+				  <option value="technology" id="technology">Technology</option>
+				  <option value="science" id="science">Science</option>
+				  <option value="health" id="health">Health</option>
+				  <option value="sports" id="sports">Sports</option>
+				  <option value="arts" id="arts">Arts</option>
+				  <option value="books" id="books">Books</option>
+				  <option value="movies" id="movies">Movies</option>
+				  <option value="theater" id="theater">Theater</option>
+				  <option value="sundayreview" id="sundayreview">Sundayreview</option>
+				  <option value="fashion" id="fashion">Fashion</option>
+				  <option value="tmagazine" id="tmagazine">Tmagazine</option>
+				  <option value="food" id="food">Food</option>
+				  <option value="travel" id="travel">Travel</option>
+				  <option value="magazine" id="magazine">Magazine</option>
+				  <option value="realestate" id="realestate">Realestate</option>
+				  <option value="automobiles" id="automobiles">Automobils</option>
+				  <option value="obituaries" id="obituaries">Obituaries</option>
+				  <option value="insider" id="insider">Insider</option>
+				</select>
+		</div>
+</div>
+	
+<!--article part -->
+	<section>
+		<article>
+		<br><br>
+			<div class="artRes">
+				<!-- <p class="artAbs"></p> -->
+				<!-- <div id="artImg "></div> -->
+				
+			</div>
+		</article>
+	</section>
+</header>
+
+<!--footer part -->
+	<footer class="flex flex-jus-cen pad-up-down">
+		<p>&copy; Copyright 2016 INSTANEWS</p>
+	</footer>
 
 
 
 
 
 
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="comp\js\script.js"></script>
 </body>
 </html>

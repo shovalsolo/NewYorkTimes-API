@@ -1,0 +1,179 @@
+/* Mobile */
+
+/*
+@media( man-width: 600px){
+    .mob-order{
+        order: 2;
+    }
+    
+}
+*/
+
+
+/* tablet */ 
+
+
+@media( min-width: 600px) and (max-width: 1000px){
+    
+    .tab-border-left{
+        border-left: 2px solid white;
+    }
+    
+    .tab-border-right{
+        border-right: 2px solid white;
+    }
+    
+    .tab-order{
+        order: 2;
+    }
+    
+    .tab-border-off{
+        border-top: 0px;
+    }
+    
+    .tab-min-wid{
+        min-width: 0%;
+    }
+    
+    .tab-footer{
+        display: flex;
+        justify-content:space-between;
+    }
+	.tab-indent-off{
+		text-indent: 0px;
+	}
+    .flex-col-tablet {
+        flex-direction: column;
+        
+    }
+    
+    .tab-pad-updown{
+        padding: 0.5rem 0rem;
+    }
+    
+    .tab-pad-social{
+	padding: 0.5rem 0.5rem;
+    }
+    
+    .tab-flex-ali-itm-lef{
+           align-items: left; 
+    }
+    
+    .tab-social{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        font-family: 'Raleway', sans-serif;
+		text-align:left;
+        padding: 0.5rem 0rem;
+    }
+    
+    .subsection1{
+        display: flex;
+        flex-flow: row;
+    }
+    .subsection1-a{
+        width:50%;
+        margin-top:0;
+    }
+
+    .subsection2{
+        display: flex;
+        flex-flow: row;
+        margin:0;
+    }
+
+     .subsection2-a{
+        width:50%;
+    }
+	
+}
+
+/* desktop */ 
+
+@media( min-width: 1000px){
+
+/*
+	.tab-flex-row{
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;
+	}
+*/
+     .dt-border-left{
+        border-left: 2px solid white;
+    }
+    
+    .dt-border-right{
+        border-right: 2px solid white;
+    }
+    
+    .dt-order{
+        order: 2;
+    }
+     .dt-border-off{
+        border-top: 0px;
+    }
+    
+    .dt-min-wid{
+        min-width: 0%;
+    }
+    
+    .dt-footer{
+		display: flex;
+        justify-content: space-between;
+    }
+	
+	.dt-indent-off{
+		text-indent: 0px;
+	}
+    
+    .dt-pad-updown{
+        padding: 0.5rem 0rem;
+    }
+    
+    .dt-pad-social{
+	padding: 0.5rem 0.5rem;
+    }
+    
+	.dt-social{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        font-family: 'Raleway', sans-serif;
+		text-align:left;
+        padding: 0.5rem 0rem;
+    }
+    
+    .dt-flex-ali-itm-lef{
+           align-items: left; 
+    }
+    
+    .subsection1{
+        display: flex;
+        flex-flow: row;
+    }
+    .subsection1-a{
+        width:50%;
+        margin-top:0;
+    }
+
+    .subsection2{
+        display: flex;
+        flex-flow: row;
+        margin:0;
+    }
+
+     .subsection2-a{
+        width:50%;
+    }
+	
+}
+
+
+
+
+
+
+
+

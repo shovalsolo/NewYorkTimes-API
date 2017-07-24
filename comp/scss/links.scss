@@ -1,0 +1,36 @@
+/*---------------Links-------------------*/
+
+a{
+	color:white;
+	text-decoration: none;
+	transition:color .5s ease;
+}
+a:visited{
+	color:white;
+}
+
+a:hover {
+	color: gray;
+}
+
+nav ul li a:visited{
+	color: #E42217;
+}
+
+nav ul li  a{
+	color: red;
+}
+
+.social a:visited {
+	color: white;
+}
+
+/*-----------------text-decoration-----------------*/
+
+.text-deco-no{
+	text-decoration: none;
+}
+
+.text-deco-un{
+	text-decoration: underline;
+}

@@ -1,0 +1,206 @@
+.flex{
+	display: flex;
+}
+
+.flex-center{
+	justify-content: center;
+	align-items: center;
+}
+/*-------------justify-content---x--------------*/
+
+
+.flex-jus-start{
+	justify-content:flex-start;
+}
+
+.flex-jus-end{
+	justify-content:flex-end;
+}
+
+.flex-jus-cen{
+	justify-content: center;
+}
+
+.flex-jus-spa-bet{
+	justify-content:space-between;
+}
+
+.flex-jus-spa-aro{
+	justify-content:space-around;
+}
+/*-------------align-items----y---------------*/
+
+.flex-ali-start{
+	align-items:flex-start;
+}
+
+.flex-ali-end{
+	align-items:flex-end;
+}
+
+.flex-ali-cen{
+	align-items:center;
+}
+
+.flex-ali-base{
+	align-items:baseline;
+}
+
+.flex-ali-str{
+	align-items:stretch;
+}
+
+/*-------------flex-direction-----------------*/
+
+.flex-dir-row{
+	flex-direction: row;
+}
+
+.flex-dir-row-rev{
+	flex-direction: row-reverse;
+}
+
+.flex-dir-col{
+	flex-direction: column;
+}
+
+.flex-dir-col-rev{
+	flex-direction: column-reverse;
+}
+
+
+/*-------------align-self--------------------*/
+
+.flex-ali-sel-sta{
+	align-self:flex-start;
+}
+
+
+.flex-ali-sel-end{
+	align-self:flex-end;
+}
+
+
+.flex-ali-sel-cen{
+	align-self:center;
+}
+
+
+.flex-ali-sel-bas{
+	align-self:baseline;
+}
+
+
+.flex-ali-sel-str{
+	align-self:stretch;
+}
+/*-------------flex-wrap---------------------*/
+
+.flex-wrap{
+	flex-wrap:wrap;
+}
+
+
+.flex-wrap-no{
+	flex-wrap:nowrap;
+}
+
+
+.flex-wrap-rev{
+	flex-wrap:wrap-reverse;
+}
+
+/*-------------align-content-----------------*/
+
+.flex-ali-con-sta{
+	align-content:flex-start;
+}
+
+
+.flex-ali-con-end{
+	align-content:flex-end;
+}
+
+
+.flex-ali-con-cen{
+	align-content:center;
+}
+
+
+.flex-ali-con-bet{
+	align-content:space-between;
+}
+
+
+.flex-ali-con-aro{
+	align-content:space-around;
+}
+
+
+.flex-ali-con-str{
+	align-content:stretch;
+}
+
+/*--------------flex-grow---------------*/
+
+.flex-grow-sml{
+	flex-grow:1;
+}
+
+.flex-grow-med{
+	flex-grow:2;
+}
+
+.flex-grow-lar{
+	flex-grow:3;
+}
+
+/*--------------flex-shrink---------------*/
+
+.flex-shrink-sml{
+    flex-shrink: 1;
+}
+
+.flex-shrink-med{
+    flex-shrink: 2;
+}
+
+.flex-shrink-lar{
+    flex-shrink: 3;
+}
+
+/*--------------flex-basis---------------*/
+
+.flex-basis-sml{
+   flex-basis:50px; 
+}
+
+.flex-basis-med{
+   flex-basis:100px;
+}
+
+.flex-basis-lar{
+   flex-basis:200px;
+}
+//flex-basis:200px // like min-width
+
+/*--------------flex-order---------------*/
+
+.flex-order-one{
+	order: 1;
+}
+
+.flex-order-two{
+	order: 2;
+}
+
+.flex-order-three{
+	order: 3;
+}
+.flex-order-four{
+	order: 4;
+}
+
+
+
+

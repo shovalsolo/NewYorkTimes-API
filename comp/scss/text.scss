@@ -1,0 +1,147 @@
+/*-----------------text-align---------------------*/
+
+.text-ali-c{
+	text-align: center;
+}
+
+.text-ali-ri{
+	text-align: right;
+}
+
+.text-ali-le{
+	text-align: left;
+}
+
+/*-----------------padding---------------------*/
+
+/*top bottom--*/
+
+.pad-up-down{
+	padding: 0.5rem 0rem;
+}
+
+.pad-up-down-med{
+	padding: 1rem 0rem;
+}
+
+.pad-up-down-lar{
+	padding: 2rem 0rem;
+}
+
+/*sides---*/
+
+.pad-left-right-sml{
+	padding: 0em 0.5em;
+} 
+
+.pad-left-right-med{
+	padding: 0em 0.8em;
+}
+
+.pad-left-right-lar{
+	padding: 0em 1em;
+}  
+/*all----*/
+
+.pad-sml{
+	padding: 1em;
+}
+
+.pad-med{
+	padding: 2em;
+}
+.pad-lar{
+	padding: 5em ;
+}
+
+.pad-trand{
+	padding: 5em 3.5em 5em 5em;
+}
+
+/*bottom-----*/
+
+.pad-bottom-ex-sml{
+	padding: 0em 0em 0.1em 0em;
+}
+
+.pad-bottom-sml{
+	padding: 0em 0em 0.5em 0em;
+}
+
+.pad-bottom-med{
+	padding: 0em 0em 1.5em 0em;
+}
+
+.pad-bottom-lar{
+	padding: 0em 0em 2.5em 0em;
+	
+}
+/*top-----*/
+
+.pad-top-sml{
+	padding-top: 1rem;
+}
+
+.pad-top-med{
+	padding-top: 2rem;
+}
+
+.pad-top-lar{
+	padding-top: 3rem;
+}
+
+.pad-top-ex-lar{
+	padding-top: 5rem;
+}
+
+/*--------------------------------------*/
+
+.text-indent-on{
+	text-indent: -10000px;
+}
+
+/* .text-indent-off{ */
+	/* text-indent: 0px; */
+/* } */
+
+.bor-radius{
+	-webkit-border-radius:50px;
+}
+
+.text-shadow{
+	text-shadow: 2px 2px gray;
+}
+
+.max-wid{
+	width :100%;
+}
+
+.max-wid-sml{
+	width :30%;
+}
+
+.min-height{
+min-height: 300px;
+}
+
+/*-----------------margin----------------------*/
+.margin-all-sml{
+	margin: 1px;
+}
+
+.margin-bot{
+	margin: 0px 0px 5px 0px;
+}
+/*-----------------line-height----------------*/
+
+.line-height-sml{
+	line-height: 2rem;
+}
+
+.line-height-med{
+	line-height: 3rem;
+}
+
+.line-height-lar{
+	line-height: 4rem;
+}
