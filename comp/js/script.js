@@ -17,6 +17,22 @@ function apiget(result){
 // remove any div with class of article
 	  $( ".article" ).remove();
 
+//target the header resize the icon and move the selector with a new class and add on done
+//like $("header").addClass("minifed");
+/*
+first{
+	flex:col
+	width:20%;
+	j-c:cen;
+	a-i:cen;
+}
+&minifed{
+	width:10%;
+}
+
+*/
+
+
 	  var res = result.results;
 	  var count = 1;
 
@@ -43,7 +59,7 @@ function apiget(result){
 			  //$(newElement).append(artAbs);
 
 			  $(newElement).append("<a class='artLink font-open-sans-lig' href="+artLink+">"+artAbs+"</a>");
-			  $(newElement).addClass("article min-height flex flex-ali-end");
+			  $(newElement).addClass("dt-art tab-art article min-height flex flex-ali-end");
 			  $(".artRes").append(newElement);
 			  count++;
 

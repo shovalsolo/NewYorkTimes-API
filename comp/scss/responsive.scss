@@ -13,6 +13,22 @@
        
     }
 
+    .tab-art-res{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+           
+    }
+
+    .tab-art{
+        display: flex;
+        align-items: flex-end;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 700px;
+        width: 33%;
+    }
+
 
     
 }
@@ -33,13 +49,24 @@
        
     }
 
-    .dt-art{
+    .dt-art-res{
         display: flex;
         flex-direction: row;
-        
+        flex-wrap: wrap;
+           
     }
-	
+
+    .dt-art{
+        display: flex;
+        align-items: flex-end;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 700px;
+        width: 25%;
+    }
 }
+	
+
 
 
 
