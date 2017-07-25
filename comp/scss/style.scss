@@ -17,11 +17,11 @@ body{
 
 }
 
-/*.select-section{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}*/
+
+
+.select-section{
+
+}
 
 .select-nav{
 
@@ -31,10 +31,15 @@ body{
 	
 }
 
+
+.minifed{
+	width:10%;
+}
+
 .article{
 	background-size: cover !important;
 	background-repeat: no-repeat;
-	/*max-width: 100%;*/
+	max-width: 100%;
 	
 	a {
 		background: rgba(0,0,0,0.70); /* rgba(0,0,0,0.7) 000 is black and the 0.7 is opacity */
@@ -45,6 +50,11 @@ body{
 .artLink{
 	text-decoration: none;
 
+}
+
+footer{
+	bottom: 0;
+	position: fixed;
 }
 
 
