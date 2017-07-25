@@ -10,6 +10,7 @@ npm install --save gulp-uglifycss
 npm install -g browser-sync
 npm install browser-sync --save-dev
 npm install gulp-sass --save-dev
+npm install --save-dev gulp-plumber
 
 */
 
@@ -22,6 +23,7 @@ var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 var sass = require('gulp-sass');
 var watchSass = require("gulp-watch-sass")
+var plumber = require('gulp-plumber');
 
 /*concat and uglyfy css and js--------------- */
 
@@ -85,10 +87,11 @@ gulp.task('sass', function () {
 
 gulp.task('to-sass', function () {
   gulp.src('*.scss')
+  .pipe(plumber())
   .pipe(sass())
-     .pipe(concat('style.css'))
-        .pipe(uglifycss())
-        .pipe(gulp.dest('.'));
+  .pipe(concat('style.css'))
+  .pipe(uglifycss())
+  .pipe(gulp.dest('.'));
 
     
 });
@@ -97,6 +100,7 @@ gulp.task('to-sass', function () {
 
 gulp.task('sass-2-css', function () {
   gulp.src('./comp/scss/*.scss')
+  .pipe(plumber())
   .pipe(sass())
   .pipe(concat('style.css'))
   .pipe(uglifycss())
@@ -108,6 +112,7 @@ gulp.task('sass-2-css', function () {
 
 gulp.task('unify-js', function() {
     gulp.src('./comp/js/*.js')
+    .pipe(plumber())
     .pipe(concat('sctipt.js'))
     .pipe(uglifycss())
     .pipe(gulp.dest('dist/js'));

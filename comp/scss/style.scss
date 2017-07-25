@@ -7,8 +7,6 @@
 @import 'responsive';
 
 
-/*font-family: 'Raleway', sans-serif;
-font-family: 'Playfair Display', serif; */
 /*-------------------scss----------------------------------*/
 
 body{
@@ -17,10 +15,13 @@ body{
 
 }
 
-
-
 .select-section{
-
+		/*display: flex;
+		flex-direction: column;*/
+		/*width: 20%;
+		height: 10%;
+        justify-content: flex-start;*/
+        /*align-items: flex-start;*/
 }
 
 .select-nav{
@@ -31,9 +32,11 @@ body{
 	
 }
 
-
-.minifed{
-	width:10%;
+.minifed img{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 10%;
 }
 
 .article{
@@ -53,8 +56,9 @@ body{
 }
 
 footer{
-	bottom: 0;
+	/*bottom: 0;
 	position: fixed;
+	left: 25%;*/
 }
 
 

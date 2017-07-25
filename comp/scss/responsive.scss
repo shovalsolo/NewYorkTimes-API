@@ -5,12 +5,13 @@
     .tab-select-art{
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
     }
 
     .tab-footer{
         display: flex;
         justify-content: flex-start;
-       
+       /*left: 0;*/
     }
 
     .tab-art-res{
@@ -40,15 +41,13 @@
     .dt-select-art{
         display: flex;
         flex-direction: row;
-        width: 20%;
-        justify-content: center;
-        align-items: center;
-        
+        justify-content: flex-start;
     }
 
      .dt-footer{
         display: flex;
         justify-content: flex-start;
+        /*left: 0;*/
        
     }
 

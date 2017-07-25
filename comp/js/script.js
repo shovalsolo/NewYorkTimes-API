@@ -18,7 +18,7 @@ function apiget(result){
 	  $( ".article" ).remove();
 
 //target the header resize the icon and move the selector with a new class and add on done
-//like $("header").addClass("minifed");
+//like $("select-section").addClass("minifed");
 /*
 first{
 	flex:col
@@ -31,7 +31,7 @@ first{
 }
 
 */
-
+	$(".select-section").addClass("minifed");
 
 	  var res = result.results;
 	  var count = 1;
