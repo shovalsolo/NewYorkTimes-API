@@ -17,22 +17,6 @@ function apiget(result){
 // remove any div with class of article
 	  $( ".article" ).remove();
 
-//target the header resize the icon and move the selector with a new class and add on done
-//like $("select-section").addClass("minifed");
-/*
-first{
-	flex:col
-	width:20%;
-	j-c:cen;
-	a-i:cen;
-}
-&minifed{
-	width:10%;
-}
-
-*/
-	$(".select-section").addClass("minifed");
-
 	  var res = result.results;
 	  var count = 1;
 
@@ -48,6 +32,8 @@ first{
 
 			  //var para = $("<div class='article'><p class='title'>"+res[i].title+"</p>"+$(".article").css("background", "url("+res[i].multimedia[0].url+")")+"<br>"+"<p class='abstract'>"+res[i].abstract+"</p>"+"</div>");
 			  //$("#artRes").append(para);
+
+			  $(".select-section").addClass("minifed");
 			  
 			  var artAbs = res[i].abstract;
 			  var artImg = res[i].multimedia[4].url;

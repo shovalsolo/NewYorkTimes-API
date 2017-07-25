@@ -1,6 +1,7 @@
-/*a gulp file that is tacking all the files from folder css and concatinating them to one file main.css */
-/* 
-install commands before running!!!
+/*a gulp file that is tacking all the files 
+from folder css and concatinating them to one file main.css */
+
+/*--- install commands before running!!!
 
 npm install gulp -g
 npm install gulp --save-dev
@@ -14,11 +15,19 @@ npm install --save-dev gulp-plumber
 
 */
 
+/* --explanation--
+concat: removing spaces between words
+uglyfly: setting all css to one line
+browser-sync: continues browswer syncing
+sass: converting from sass to css
+plumber: returns Stream fixes pipe methods on Streams next in pipeline
+*/
 
-/* declering variabels */
+/*---- declering variabels */
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglifycss = require('gulp-uglifycss');
+var uglify = require('gulp-uglify');
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 var sass = require('gulp-sass');
@@ -36,9 +45,8 @@ gulp.task('all', function() {
      gulp.src('*.js')
      .pipe(concat('main.js'))
      .pipe(uglifycss())
-         .pipe(gulp.dest(''));
+     .pipe(gulp.dest(''));
 });
-
 
 
 /*concat and uglyfy css------------------- */
@@ -113,8 +121,8 @@ gulp.task('sass-2-css', function () {
 gulp.task('unify-js', function() {
     gulp.src('./comp/js/*.js')
     .pipe(plumber())
+    .pipe(uglify())
     .pipe(concat('sctipt.js'))
-    .pipe(uglifycss())
     .pipe(gulp.dest('dist/js'));
 });
 
