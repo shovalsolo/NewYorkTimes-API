@@ -42,7 +42,7 @@ function apiget(result){
 			  $(newElement).css("background", "url("+artImg+")");
 			  //$(newElement).append(artAbs);
 
-			  $(newElement).append("<a class='artLink' href="+artLink+">"+artAbs+"</a>");
+			  $(newElement).append("<a class='artLink font-open-sans-lig' href="+artLink+">"+artAbs+"</a>");
 			  $(newElement).addClass("article min-height flex flex-ali-end");
 			  $(".artRes").append(newElement);
 			  count++;
