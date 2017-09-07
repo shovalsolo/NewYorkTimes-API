@@ -3,7 +3,7 @@
 //     $("#dropDown option selected").val();  
 // });
 
-function apiget(result){
+function apiget(){
 	var choice = $('#dropDown').val();
 	var url = "https://api.nytimes.com/svc/topstories/v2/"+choice+".json";
 	url += '?' + $.param({
@@ -20,7 +20,7 @@ function apiget(result){
 	  var res = result.results;
 	  var count = 1;
 
-	  for(i=0; i< res.length;i++){
+	  for(var i=0; i< res.length;i++){
 
 		if (count<=12) {
 

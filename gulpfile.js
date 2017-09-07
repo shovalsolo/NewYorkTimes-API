@@ -12,6 +12,8 @@ npm install -g browser-sync
 npm install browser-sync --save-dev
 npm install gulp-sass --save-dev
 npm install --save-dev gulp-plumber
+npm install --save-dev gulp-watch-sass
+
 
 */
 
