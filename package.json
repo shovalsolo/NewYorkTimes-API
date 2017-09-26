@@ -4,6 +4,8 @@
   "description": "PROJECT 1 Aloha Apparel Co. desktop version",
   "main": "email-validation.js",
   "scripts": {
+	"start": "node index.html",
+    "postinstall": "gulp all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
